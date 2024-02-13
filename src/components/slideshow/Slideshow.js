@@ -32,10 +32,9 @@ const Slideshow = () => {
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
-                filter: "brightness(80%)",
                 height: "350px",
                 WebkitBackfaceVisibility: "hidden",
-                WebkitTransition: "ease-in 0.7s",
+                animationIterationCount: "infinite",
             }}>
         </div>
     );
