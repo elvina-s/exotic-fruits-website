@@ -26,7 +26,9 @@ const Item = ({item}) => {
             </div>
             <div className="itemDetailsAndQuantity">
                 <div className="itemDetails">
-                    <p className="itemName">{item.name}</p>
+                    <NavLink to={`/catalogue/${item.id}`}>
+                        <p className="itemName">{item.name}</p>
+                    </NavLink>
                     <p className="itemPrice">$ {item.price}</p>
                 </div>
                 <div className="quantityAndBtn">
