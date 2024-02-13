@@ -36,6 +36,7 @@ const Slideshow = () => {
                 height: "350px",
                 webkitTransform: "translateZ(0)",
                 webkitBackfaceVisibility: "hidden",
+                backgroundColor: "black",
             }}>
         </div>
     );
