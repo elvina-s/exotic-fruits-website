@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    background-color: #ffffff;
+        margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.FruitPage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.fruitImg {
+    margin: 0;
+    padding: 60px 0px 0px 50px;
+}
+
+.img {
+    width: 300px;
+    margin: 0;
+}
+
+.fruitDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 60px 0px 50px;
+    margin: 0;
+}
+
+.fruitName, .fruitPrice {
+    font-size: 24px;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fruitName {
+    padding: 50px 0px 30px 0px;
+    margin: 0;
+}
+
+.fruitPrice {
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+}
+
+.fruitDescription1, .fruitDescription2 {
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    color: #202020;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.previouseBtn:hover, .nextBtn:hover {
+    color: rgb(110, 218, 102);
+}
+
+@media all and (max-width: 850px) {
+    .img {
+        width: 260px;
+    }
+    
+    .fruitDetails {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 60px 60px 0px 30px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .img {
+        width: 240px;
+    }
+
+    .fruitName, .fruitPrice {
+        font-size: 22px;
+    }
+    
+    .fruitName {
+        padding: 20px 0px 30px 0px;
+    }
+
+    .fruitDetails {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 60px 40px 0px 20px;
+    }
+}
+
+
+@media all and (max-width: 630px) {
+    .fruitImg {
+        padding: 60px 0px 50px 10px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .fruitDescription1, .fruitDescription2 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .fruitDescription1, .fruitDescription2 {
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .FruitPage {
+        flex-direction: column;
+    }
+
+    .fruitImg {
+        justify-self: center;
+        align-self: center;
+        padding: 0px;
+    }
+
+    .fruitDetails {
+        padding: 0px 40px;
+    }
+
+    .fruitDescription1, .fruitDescription2 {
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .fruitName, .fruitPrice {
+        font-size: 19px;
+    }
+
+    .fruitDescription1, .fruitDescription2 {
+        font-size: 17px;
+    }
+
+    .img {
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .img {
+        width: 160px;
+    }
+}
+
+
+
+
+
+

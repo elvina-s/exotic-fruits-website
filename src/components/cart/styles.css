@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.Cart {
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.cartTotalContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 70px 50px;
+    margin: 0;
+}
+
+.cartItemS {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 70px 50px;
+    margin: 0;
+}
+
+.cartItem {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.cartItemParts {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartItemCard {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 30px 0px;
+}
+
+.cartItemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cartTotal {
+    margin: 0;
+    font-size: 24px;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartItemImg {
+    width: 160px;
+    margin: 0px 20px 30px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartItemName, .cartItemPrice, .cartItemQuantity {
+    margin: 0;
+    font-size: 23px;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+.removeAnItemButton {
+    font-size: 18px;
+    color: #ff3535;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 1px #ff3535;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 20px 0px 30px 0px;
+    cursor: pointer;
+    width: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.removeAnItemButton:hover {
+    color: #ffffff;
+    background-color: #ff3535;
+}
+
+.removeAllItemsButton {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ff3535;
+    border: solid 1px #ff3535;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.removeAllItemsButton:hover {
+    color: #ff3535;
+    background-color: transparent;
+    border: solid 1px #ff3535;
+}
+
+.noItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 250px 0px 0px 0px;
+}
+
+.emptyCartText {
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.goToCatalogueBtn {
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #202020;
+    background-color: rgb(180, 246, 176);
+    border: solid 0.5px rgb(110, 218, 102);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 30px 0px 0px 0px;
+    cursor: pointer;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.goToCatalogueBtn:hover {
+    color: #202020;
+    background-color: rgb(110, 218, 102);
+    border: solid 0.5px #202020;
+}
+
+
+@media all and (max-width: 750px) {
+    .cartTotalContainer {
+        padding: 50px 30px 0px 50px;
+    }
+
+    .cartItemS {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+@media all and (max-width: 730px) {
+    .Cart {
+        flex-direction: column;
+    }
+    
+    .cartTotalContainer {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .cartItemCard {
+        margin: 0;
+    }
+
+    .cartItemS {
+        padding: 0;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .cartItemDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .cartTotal {
+        font-size: 22px;
+    }
+    
+    .cartItemImg {
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .cartItemName, .cartItemPrice, .cartItemQuantity {
+        font-size: 21px;
+    }
+    
+    .removeAnItemButton {
+        font-size: 16px;
+        width: 100px;
+    }
+    
+    .removeAllItemsButton {
+        font-size: 16px;
+        width: 160px;
+    }
+    
+    .emptyCartText {
+        font-size: 24px;
+    }
+    
+    .goToCatalogueBtn {
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+        width: 200px;
+    }
+
+    .cartItemS {
+        justify-content: flex-start;
+    }
+
+    .cartItemCard {
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .cartItemCard {
+        padding: 0px 40px;
+    }
+
+    .removeAnItemButton {
+        font-size: 16px;
+        padding: 10px 10px;
+        margin: 20px 0px 30px 0px;
+        width: 100px;
+    }
+    
+    .removeAllItemsButton {
+        font-size: 16px;
+        padding: 10px 10px;
+        margin: 20px 0px 0px 0px;
+        width: 180px;  
+    }
+
+    .cartItemImg {
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .cartItemName, .cartItemPrice, .cartItemQuantity {
+        font-size: 19px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .cartItemPrice {
+        font-weight: bolder;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .cartItemCard {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cartItemImg {
+        margin: 0px 15px 0px 0px;
+        align-self: center;
+    }
+
+    .cartTotalContainer {
+        padding: 50px 0px 10px 0px;
+    }
+
+    .cartItemS {
+        justify-content: center;
+    }
+
+    .cartItemDetails {
+        text-align: center;
+    }
+
+    .removeAnItemButton {
+        align-self: center;
+    }
+}
+
+
+

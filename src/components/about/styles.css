@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.About {
+    background-color: #ffffff;
+    padding: 50px 70px 20px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.aboutHeader {
+    font-size: 24px;
+    color: #202020;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.aboutSubHeader {
+    padding: 20px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+@media all and (max-width: 550px) {
+    .About {
+        padding: 40px 60px 20px 60px;
+    }
+    
+    .aboutHeader {
+        font-size: 24px;
+        padding: 0px 0px 20px 0px;
+    }
+    
+    .aboutSubHeader {
+        padding: 0px 0px 0px 0px;
+        font-size: 21px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .About {
+        padding: 40px 60px 20px 60px;
+    }
+    
+    .aboutHeader {
+        font-size: 22px;
+        padding: 0px 0px 20px 0px;
+    }
+    
+    .aboutSubHeader {
+        padding: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .About {
+        padding: 40px 60px 20px 60px;
+    }
+    
+    .aboutHeader {
+        font-size: 20px;
+        padding: 0px 0px 20px 0px;
+    }
+    
+    .aboutSubHeader {
+        padding: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .About {
+        padding: 40px 40px 20px 40px;
+    }
+}
+
+

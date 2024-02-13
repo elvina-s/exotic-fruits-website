@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.FAQ {
+    margin: 0px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FAQHeader {
+    margin: 50px 0px 30px 0px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.questionUl, .questionLi {
+    margin: 0px;
+    padding: 0px;
+}
+
+.FAQItem {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: start;
+    margin: 20px 50px 20px 50px;
+}
+
+.open {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 0.5px #202020;
+    padding: 10px 10px;
+    color: rgb(110, 218, 102);
+    font-family: 'Poppins', sans-serif;
+    }
+
+.close {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 0.5px #202020;
+    padding: 10px 10px;
+    color: rgb(110, 218, 102);
+    font-family: 'Poppins', sans-serif;
+    }
+
+h2 {
+    font-size: 21px;
+    color: #202020;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0px 0px 0px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(110, 218, 102);
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    color: #202020;
+}
+
+.FAQAnswer {
+    margin: 15px 20px 20px 20px;
+    font-size: 20px;
+    color: #202020;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+@media all and (max-width: 890px) {
+    h2 {
+        text-align: start;
+        font-weight: lighter;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .FAQ {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .FAQHeader {
+        font-size: 22px;
+    }
+
+    .FAQItem {
+        margin: 20px 30px 20px 30px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .FAQAnswer {
+        margin: 15px 10px 20px 10px;
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .FAQ {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .FAQHeader {
+        font-size: 19px;
+    }
+
+    .FAQItem {
+        margin: 20px 20px 20px 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .FAQAnswer {
+        margin: 15px 10px 20px 10px;
+        font-size: 17px;
+    }
+}
+
+
