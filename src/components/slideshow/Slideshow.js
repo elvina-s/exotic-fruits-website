@@ -34,9 +34,8 @@ const Slideshow = () => {
                 backgroundRepeat: "no-repeat",
                 filter: "brightness(80%)",
                 height: "350px",
-                webkitTransform: "translateZ(0)",
-                webkitBackfaceVisibility: "hidden",
-                backgroundColor: "black",
+                WebkitTransform: "translateZ(0)",
+                WebkitBackfaceVisibility: "hidden",
             }}>
         </div>
     );
