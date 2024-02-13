@@ -9,7 +9,7 @@ const Slideshow = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             Change();
-        }, 2500);
+        }, 3000);
 
         return () => {
             clearInterval(interval);
@@ -34,7 +34,7 @@ const Slideshow = () => {
                 backgroundRepeat: "no-repeat",
                 filter: "brightness(80%)",
                 height: "350px",
-                transition: "1s",
+                transition: "0.5s",
             }}>
         </div>
     );
