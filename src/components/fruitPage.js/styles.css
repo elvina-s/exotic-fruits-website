@@ -90,6 +90,10 @@ body {
         padding: 20px 0px 30px 0px;
     }
 
+    .fruitPrice {
+        padding: 10px 0px 30px 0px;
+    }
+
     .fruitDetails {
         flex-direction: column;
         flex-wrap: wrap;
