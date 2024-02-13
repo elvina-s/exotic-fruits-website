@@ -34,7 +34,6 @@ const Slideshow = () => {
                 backgroundRepeat: "no-repeat",
                 filter: "brightness(80%)",
                 height: "350px",
-                transition: "0.5s",
             }}>
         </div>
     );
