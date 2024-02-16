@@ -4,7 +4,7 @@
 
 A website of a exotic fruit shop.
 
-<img width="1440" alt="Exotic Fruits Shop" src="https://github.com/elvina-s/exotic-fruits-website/assets/149134113/a5519935-9043-4a4c-9c7e-a334ae67ba5c">
+<img width="1440" alt="Снимок экрана 2024-02-16 в 22 35 40" src="https://github.com/elvina-s/exotic-fruits-website/assets/149134113/b2f14807-2b65-4dae-a512-c379852f4f15">
 
 ## What is it made with?
 
