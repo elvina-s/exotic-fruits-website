@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.Photo {
+    margin: 0;
+    position: relative;
+}
+
+.slideshowImg {
+    height: 450px;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.header {
+    font-size: 60px;
+    color: #ffffff;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+@media all and (max-width: 1180px) {
+    .header {
+        left: 25%;
+    }
+}
+
+@media all and (max-width: 1030px) {
+    .header {
+        left: 23%;
+    }
+}
+
+@media all and (max-width: 1030px) {
+    .header {
+        left: 20%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .header {
+        left: 23%;
+        font-size: 52px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .header {
+        left: 23%;
+        font-size: 50px;
+    }
+
+    .slideshowImg {
+        height: 430px;
+    }
+}
+
+@media all and (max-width: 785px) {
+    .header {
+        left: 20%;
+        font-size: 48px;
+    }
+
+    .slideshowImg {
+        height: 420px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .header {
+        left: 18%;
+        font-size: 46px;
+    }
+
+    .slideshowImg {
+        height: 380px;
+    }
+}
+
+@media all and (max-width: 635px) {
+    .header {
+        left: 16%;
+        font-size: 44px;
+    }
+
+    .slideshowImg {
+        height: 360px;
+    }
+}
+
+@media all and (max-width: 590px) {
+    .header {
+        left: 15%;
+        font-size: 42px;
+    }
+
+    .slideshowImg {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 545px) {
+    .header {
+        left: 15%;
+        font-size: 38px;
+    }
+
+    .slideshowImg {
+        height: 310px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header {
+        left: 15%;
+        font-size: 36px;
+    }
+
+    .slideshowImg {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .header {
+        font-size: 32px;
+    }
+
+    .slideshowImg {
+        height: 280px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .header {
+        left: 13%;
+        font-size: 30px;
+    }
+
+    .slideshowImg {
+        height: 260px;
+    }
+}
