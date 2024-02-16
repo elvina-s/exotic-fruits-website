@@ -13,7 +13,6 @@
     height: 450px;
     width: 100%;
     filter: brightness(80%);
-    postion: relative;
 }
 
 .header {
@@ -21,18 +20,11 @@
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
-    margin: 0;
+    margin: 100px 0px 0px 100px;
     padding: 0;
-    position: absolute;
-    left: 30%;
-    top: 40%;
+    z-index: 1000;
 }
 
-@media all and (max-width: 1180px) {
-    .header {
-        left: 25%;
-    }
-}
 
 @media all and (max-width: 1030px) {
     .header {
