@@ -24,7 +24,7 @@
     margin: 0px;
     position: absolute;
     left: 30%;
-    top: 40%;
+    top: 40px;
 }
 
 @media all and (max-width: 1180px) {
