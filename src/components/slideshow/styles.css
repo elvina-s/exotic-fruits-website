@@ -7,13 +7,13 @@
 
 .Slideshow {
     margin: 0;
-    postion: relative;
 }
 
 .slideshowImg {
     height: 450px;
     width: 100%;
     filter: brightness(80%);
+    postion: relative;
 }
 
 .header {
