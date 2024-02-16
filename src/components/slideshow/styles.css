@@ -92,6 +92,12 @@
     }
 }
 
+@media all and (max-width: 600px) {
+    .slideshowHeader {
+        top: 25%;
+    }
+}
+
 @media all and (max-width: 590px) {
     .slideshowHeader {
         left: 15%;
