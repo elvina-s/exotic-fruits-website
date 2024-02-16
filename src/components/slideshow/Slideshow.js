@@ -32,7 +32,7 @@ const Slideshow = () => {
                 alt="fruit"
                 className="slideshowImg"
             />
-            <h1 className="header"><strong>EXOTIC FRUITS SHOP</strong></h1>
+            <h1 className="header">EXOTIC FRUITS SHOP</h1>
         </div>
     );
 }
