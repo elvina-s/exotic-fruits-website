@@ -26,16 +26,13 @@ const Slideshow = () => {
     };
 
     return (
-        <div className="Photo"
-            style={{
-                backgroundImage: `url(${img})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                height: "350px",
-                WebkitBackfaceVisibility: "hidden",
-                animationIterationCount: "infinite",
-            }}>
+        <div className="Photo">
+            <img
+                src={img}
+                alt="fruit"
+                className="slideshowImg"
+            />
+            <h1 className="header"><strong>EXOTIC FRUITS SHOP</strong></h1>
         </div>
     );
 }
