@@ -21,10 +21,11 @@
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     position: absolute;
     left: 30%;
-    top: 40%;
+    top: 50%;
 }
 
 @media all and (max-width: 1180px) {
