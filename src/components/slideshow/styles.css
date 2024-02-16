@@ -18,13 +18,13 @@
 
 .slideshowHeader {
     font-size: 60px;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 25%;
 }
 
