@@ -7,6 +7,7 @@
 
 .Slideshow {
     margin: 0;
+    position: relative;
 }
 
 .slideshowImg {
@@ -21,7 +22,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
     margin: 50px 0px 0px 0px;
-    position: relative;
+    position: absolute;
     left: 30%;
 }
 
