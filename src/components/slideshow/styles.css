@@ -21,9 +21,10 @@
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
-    margin: 50px 0px 0px 0px;
+    margin: 0px;
     position: absolute;
     left: 30%;
+    top: 50px;
 }
 
 @media all and (max-width: 1180px) {
